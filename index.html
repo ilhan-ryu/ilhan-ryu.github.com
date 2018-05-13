@@ -1,7 +1,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Patronus</title>
-
     <style type="text/css">
         body {
             background: black;
@@ -28,9 +27,15 @@
         }
 
     </style>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>    
+    <script>
+        particlesJS.load('particles-js','particlesjs-config.json', function() {
+            console.log('callback - particles.js config loaded');
+            });
+    </script>
 </head>
 
-<body>
+<body id="particles-js">
     <div id="center">
         <span class="text1" style="font-size:100px;"> Patronus </span>
         <span class="text2" style="font-size:30px;"> To be continued ...</span>        
