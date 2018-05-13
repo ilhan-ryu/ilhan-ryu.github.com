@@ -17,12 +17,22 @@
             align-items: center; 
             flex-direction: column;            
         }
+
+        @media screen and (max-width: 640px) {
+            .text1 {
+                font-size: 14vw
+            }
+            .text2 {
+                font-size: 4vw
+            }
+        }
+
     </style>
 </head>
 
 <body>
     <div id="center">
-        <span style="font-size:14vw;"> Patronus </span>
-        <span style="font-size:4vw;"> To be continued ...</span>        
+        <span class="text1" style="font-size:100px;"> Patronus </span>
+        <span class="text2" style="font-size:30px;"> To be continued ...</span>        
     </div>
 </body>
